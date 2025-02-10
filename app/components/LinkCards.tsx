@@ -11,8 +11,8 @@ export interface ILinkCard {
 export default function LinkCard(props: ILinkCard) {
   return (
     <div className="bg-[#1E50A0] flex flex-col rounded-xl px-5 pb-10 pt-10 gap-10">
-      <div className="flex justify-between">
-        <Image src={props.iconLink} width={62} height={57} alt="Card Image" />
+      <div className="flex justify-between items-center text-[24px]/[25px] font-bold">
+        <span className="text-white">{props.title}</span>
         <LinkButton href={props.href} />
       </div>
       <div className="flex flex-col">
