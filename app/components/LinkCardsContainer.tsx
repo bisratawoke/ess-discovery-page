@@ -35,7 +35,7 @@ export default function LinkCardsContainer() {
       title: "Web Portal",
       content:
         "A comprehensive repository of diverse datasets and resources.Centralized access to data for research, analysis, and reporting",
-      href: "",
+      href: `${process.env.WEB_PORTAL}`,
     },
   ];
   return (
