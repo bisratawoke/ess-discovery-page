@@ -10,9 +10,6 @@ export default function Home() {
     <LandingPageContainer>
       <FirstSection />
       <LinkCardsContainer />
-      <DiscoverEthiopiaSection />
-      <DiscorverEthiopiaSecondSection />
-      <BottomDiscoverEthiopiaSection />
     </LandingPageContainer>
   );
 }
