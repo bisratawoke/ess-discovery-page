@@ -8,7 +8,7 @@ export interface ILinkCard {
   href: string;
 }
 
-export default function LinkCard(props: ILinkCard) {
+const LinkCard: React.FC<ILinkCard> = (props) => {
   return (
     <div className="bg-[#1E50A0] flex flex-col rounded-xl px-5 pb-10 pt-10 gap-10">
       <div className="flex justify-between items-center text-[24px]/[25px] font-bold">
@@ -20,4 +20,6 @@ export default function LinkCard(props: ILinkCard) {
       </div>
     </div>
   );
-}
+};
+
+export default LinkCard;

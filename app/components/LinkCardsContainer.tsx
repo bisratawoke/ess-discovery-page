@@ -13,15 +13,29 @@ export default function LinkCardsContainer() {
       iconLink: "/dataBankIcon.png",
       title: "Data Bank",
       content:
-        "Offers online courses and training to enhance skills in data analysis and statistics.",
+        "Streamlines the recruitment process, managing applications and candidate selection efficiently.",
       href: `${process.env.DATABANK_LINK}`,
     },
     {
       iconLink: "/AtsIcon.png",
       title: "Ats",
       content:
-        "Offers online courses and training to enhance skills in data analysis and statistics.",
+        "An Application Tracking System (ATS) streamlines the hiring process by automating job applications, resume screening, and candidate management",
       href: `${process.env.ATS_LINK}`,
+    },
+    {
+      iconLink: "",
+      title: "Stat Bank",
+      content:
+        "Access aggregated data for in-depth analysis and insights.Explore trends and statistics for informed decision-making.",
+      href: `${process.env.STAT_BANK_LINK}`,
+    },
+    {
+      iconLink: "",
+      title: "Web Portal",
+      content:
+        "A comprehensive repository of diverse datasets and resources.Centralized access to data for research, analysis, and reporting",
+      href: "",
     },
   ];
   return (
