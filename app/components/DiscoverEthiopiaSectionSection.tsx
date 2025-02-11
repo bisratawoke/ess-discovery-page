@@ -63,8 +63,8 @@ export default function DiscorverEthiopiaSecondSection() {
       </div>
       <div className="grid grid-cols-12">
         <div className="col-start-2 col-end-12 grid grid-cols-3 gap-20 bg-white p-20 rounded-lg">
-          {CardList.map((card) => (
-            <Card {...card} />
+          {CardList.map((card, index) => (
+            <Card {...card} key={index} />
           ))}
         </div>
       </div>

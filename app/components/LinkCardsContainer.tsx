@@ -41,8 +41,8 @@ export default function LinkCardsContainer() {
   return (
     <div className="grid grid-cols-12">
       <div className="col-start-2 col-end-12 grid grid-cols-3 gap-5">
-        {links.map((link) => (
-          <LinkCard {...link} />
+        {links.map((link, index) => (
+          <LinkCard key={index} {...link} />
         ))}
       </div>
     </div>

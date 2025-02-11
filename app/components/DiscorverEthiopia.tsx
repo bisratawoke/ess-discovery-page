@@ -30,9 +30,9 @@ export default function DiscoverEthiopiaSection() {
               </span>
             </div>
             <div className="flex flex-col gap-1">
-              {textList.map((text) => {
+              {textList.map((text, index) => {
                 return (
-                  <div className="flex gap-2">
+                  <div className="flex gap-2" key={index}>
                     <Image src={tickImage} alt={""} width={20} height={6} />
                     <span>{text}</span>
                   </div>
