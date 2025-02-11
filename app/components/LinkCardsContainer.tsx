@@ -13,7 +13,8 @@ export default function LinkCardsContainer() {
       iconLink: "/dataBankIcon.png",
       title: "Data Bank",
       content:
-        "Streamlines the recruitment process, managing applications and candidate selection efficiently.",
+        "Access aggregated data for in-depth analysis and insights.Explore trends and statistics for informed decision-making.",
+
       href: `${process.env.DATABANK_LINK}`,
     },
     {
