@@ -3,15 +3,15 @@ export default function FirstSection() {
     <div className="flex flex-col items-center justify-center bg-red gap-10 bg-[#2B478B] h-[452px] mb-20">
       <div className="flex flex-col text-gray-400 text-[18px] items-center gap-5">
         <div className="flex items-center flex-col">
-          <span className="text-[57px]/[65px] text-black font-bold text-white">
+          <span className="align-center md:text-[57px]/[65px] text-[24px] text-black font-bold text-white">
             Track and manage your ESS
           </span>
-          <span className="text-[57px]/[65px] text-black font-bold text-white">
+          <span className="md:text-[57px]/[65px] text-[24px] text-black font-bold text-white">
             applications easily.
           </span>
         </div>
-        <div className="flex items-center flex-col">
-          <span className="text-white">
+        <div className="flex items-center flex-col md:text-[18px] text-[14px]">
+          <span className="text-white ">
             Access All Essential Directories and Resources
           </span>
           <span className="text-white">in One Place</span>
